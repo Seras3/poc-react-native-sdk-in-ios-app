@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+source 'https://github.com/Seras3/react-native-ios-private-repo'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'MySdk-native' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'React'
+  pod 'React-Core'
+  pod 'ReactCommon'
+  pod 'React-CoreModules'
+  pod 'FBLazyVector'
+  pod 'FBReactNativeSpec'
+  pod 'RCTRequired'
+  pod 'RCTTypeSafety'
+  
+  pod 'RNFastImage', :git=> 'git@github.com:DylanVann/react-native-fast-image.git', :tag=> 'v8.6.3'
+
+
+  # Pods for MySdk-native
+
+  target 'MySdk-nativeTests' do
+    # Pods for testing
+  end
+
+end

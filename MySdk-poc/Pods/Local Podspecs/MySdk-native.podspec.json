@@ -1,0 +1,56 @@
+{
+  "name": "MySdk-native",
+  "version": "1.0",
+  "summary": "MySdk-native",
+  "description": "MySdk-native react native SDK",
+  "homepage": "https://github.com/Seras3",
+  "license": "MIT",
+  "authors": {
+    "Seras3": "adrian.adam.cl@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/Seras3",
+    "tag": "v1.0"
+  },
+  "source_files": [
+    "MySdk-native/**/*.{swift,h, m}",
+    "MySdk-native/*.{swift,h, m}"
+  ],
+  "resources": "MySdk-native/*.bundle",
+  "preserve_paths": "MySdk-native/**/*",
+  "requires_arc": true,
+  "swift_versions": "5.7",
+  "dependencies": {
+    "React": [
+
+    ],
+    "React-Core": [
+
+    ],
+    "ReactCommon": [
+
+    ],
+    "React-CoreModules": [
+
+    ],
+    "FBLazyVector": [
+
+    ],
+    "FBReactNativeSpec": [
+
+    ],
+    "RCTRequired": [
+
+    ],
+    "RCTTypeSafety": [
+
+    ],
+    "RNFastImage": [
+
+    ]
+  },
+  "swift_version": "5.7"
+}

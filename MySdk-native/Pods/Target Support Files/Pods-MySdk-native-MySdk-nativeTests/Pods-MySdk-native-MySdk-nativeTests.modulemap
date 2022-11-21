@@ -1,0 +1,6 @@
+framework module Pods_MySdk_native_MySdk_nativeTests {
+  umbrella header "Pods-MySdk-native-MySdk-nativeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
